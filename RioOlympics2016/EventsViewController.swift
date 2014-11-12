@@ -19,10 +19,10 @@ class EventsViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-  
+        
         if UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad {
-            //如果是iPad设备，列数为6
-            COL_COUNT = 6
+            //如果是iPad设备，列数为5
+            COL_COUNT = 5
         }
         
         let bl = EventsBL()
@@ -47,7 +47,7 @@ class EventsViewController: UICollectionViewController {
                 
                 let event = self.events.objectAtIndex(indexPath.section * COL_COUNT + indexPath.row) as Events
                 var detailVC = segue.destinationViewController as EventsDetailViewController
-               detailVC.event = event
+                detailVC.event = event
                 
             }
     }
@@ -65,42 +65,13 @@ class EventsViewController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         var cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as EventsViewCell
-       
-        let event = self.events.objectAtIndex(indexPath.section * COL_COUNT + indexPath.row) as Events
+        
+        let index = indexPath.section * COL_COUNT + indexPath.row
+        
+        let event = self.events.objectAtIndex(index) as Events
         cell.imageView.image = UIImage(named : event.EventIcon!)
         
         return cell
     }
-    
-    // MARK: UICollectionViewDelegate
-    
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-    return true
-    }
-    */
-    
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-    return true
-    }
-    */
-    
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(collectionView: UICollectionView, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-    return false
-    }
-    
-    override func collectionView(collectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
-    return false
-    }
-    
-    override func collectionView(collectionView: UICollectionView, performAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) {
-    
-    }
-    */
     
 }

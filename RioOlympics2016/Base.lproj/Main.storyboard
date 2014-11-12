@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B23" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -26,7 +26,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1069.5" y="-764.25"/>
+            <point key="canvasLocation" x="-3076.5" y="-854.25"/>
         </scene>
         <!--About-->
         <scene sceneID="zcy-Ha-cOr">
@@ -56,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M2A-fx-R4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1243" y="956"/>
+            <point key="canvasLocation" x="-2839.5" y="-9"/>
         </scene>
         <!--Count Down-->
         <scene sceneID="DJ8-gi-zQK">
@@ -103,7 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wSS-xW-hJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-683" y="767"/>
+            <point key="canvasLocation" x="-2164.5" y="-9"/>
         </scene>
         <!--Home-->
         <scene sceneID="k0o-NE-FMA">
@@ -133,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PHb-J5-MMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="594" y="-1346.25"/>
+            <point key="canvasLocation" x="-2182.5" y="-1597.5"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="atq-98-AFQ">
@@ -186,7 +186,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2OX-Ux-7fI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1185" y="-606.75"/>
+            <point key="canvasLocation" x="-753" y="-179.25"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="dAK-ZM-xVA">
@@ -203,7 +203,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xBL-Qe-dJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="-606.75"/>
+            <point key="canvasLocation" x="-1473" y="-179.25"/>
         </scene>
         <!--Events-->
         <scene sceneID="pKs-ol-5RS">
@@ -213,22 +213,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="q9J-QS-EJY">
-                            <size key="itemSize" width="102" height="103"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="9" minimumInteritemSpacing="9" id="q9J-QS-EJY">
+                            <size key="itemSize" width="106" height="106"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="51" minY="10" maxX="51" maxY="5"/>
+                            <inset key="sectionInset" minX="50" minY="11" maxX="40" maxY="10"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="DmP-q5-GiU" customClass="EventsViewCell" customModule="RioOlympics2016" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="102" height="103"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vKh-xG-9SG">
-                                            <rect key="frame" x="0.0" y="0.0" width="102" height="102"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="102" height="103"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -236,9 +236,57 @@
                                 <constraints>
                                     <constraint firstItem="vKh-xG-9SG" firstAttribute="top" secondItem="DmP-q5-GiU" secondAttribute="top" id="05C-ma-RKz"/>
                                     <constraint firstItem="vKh-xG-9SG" firstAttribute="centerY" secondItem="DmP-q5-GiU" secondAttribute="centerY" id="0mn-mc-7Ee"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="vKh-xG-9SG" secondAttribute="bottom" constant="-10" id="4I9-Tz-b4A">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="-8"/>
+                                    </constraint>
                                     <constraint firstAttribute="trailing" secondItem="vKh-xG-9SG" secondAttribute="trailing" id="4vy-vY-yoJ"/>
+                                    <constraint firstItem="vKh-xG-9SG" firstAttribute="top" secondItem="DmP-q5-GiU" secondAttribute="top" id="4yQ-T4-Nlu"/>
+                                    <constraint firstItem="vKh-xG-9SG" firstAttribute="leading" secondItem="DmP-q5-GiU" secondAttribute="leading" id="DIR-1e-Tm7"/>
                                     <constraint firstItem="vKh-xG-9SG" firstAttribute="leading" secondItem="DmP-q5-GiU" secondAttribute="leading" id="MTV-ca-Mwh"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="vKh-xG-9SG" secondAttribute="trailing" constant="-12" id="R9G-ip-zwW">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="-8"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="vKh-xG-9SG" secondAttribute="trailing" id="fMJ-R3-nun"/>
+                                    <constraint firstItem="vKh-xG-9SG" firstAttribute="leading" secondItem="DmP-q5-GiU" secondAttribute="leading" id="law-e8-AZB"/>
+                                    <constraint firstAttribute="bottom" secondItem="vKh-xG-9SG" secondAttribute="bottom" id="s52-e4-thM"/>
+                                    <constraint firstItem="vKh-xG-9SG" firstAttribute="top" secondItem="DmP-q5-GiU" secondAttribute="top" id="wtR-gh-Tq1"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4I9-Tz-b4A"/>
+                                        <exclude reference="4yQ-T4-Nlu"/>
+                                        <exclude reference="DIR-1e-Tm7"/>
+                                        <exclude reference="R9G-ip-zwW"/>
+                                        <exclude reference="fMJ-R3-nun"/>
+                                        <exclude reference="law-e8-AZB"/>
+                                        <exclude reference="s52-e4-thM"/>
+                                        <exclude reference="wtR-gh-Tq1"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="05C-ma-RKz"/>
+                                        <exclude reference="0mn-mc-7Ee"/>
+                                        <include reference="4I9-Tz-b4A"/>
+                                        <exclude reference="4vy-vY-yoJ"/>
+                                        <include reference="4yQ-T4-Nlu"/>
+                                        <exclude reference="MTV-ca-Mwh"/>
+                                        <include reference="R9G-ip-zwW"/>
+                                        <include reference="law-e8-AZB"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="05C-ma-RKz"/>
+                                        <exclude reference="0mn-mc-7Ee"/>
+                                        <exclude reference="4vy-vY-yoJ"/>
+                                        <include reference="DIR-1e-Tm7"/>
+                                        <exclude reference="MTV-ca-Mwh"/>
+                                        <include reference="fMJ-R3-nun"/>
+                                        <include reference="s52-e4-thM"/>
+                                        <include reference="wtR-gh-Tq1"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <outlet property="imageView" destination="vKh-xG-9SG" id="znd-TT-DZx"/>
                                     <segue destination="AQy-Oc-SX7" kind="show" identifier="showDetail" id="7Bw-Rj-2Sz"/>
@@ -254,7 +302,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XPi-6t-fKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="297" y="120"/>
+            <point key="canvasLocation" x="-1258.5" y="-961.5"/>
         </scene>
         <!--Events Detail View Controller-->
         <scene sceneID="yNC-d4-tLv">
@@ -1139,7 +1187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hCF-BY-ze9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1036.5" y="126"/>
+            <point key="canvasLocation" x="-615" y="-972"/>
         </scene>
         <!--Events-->
         <scene sceneID="ZXv-EB-Ke3">
@@ -1158,7 +1206,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hnf-vg-P7p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-409" y="-65"/>
+            <point key="canvasLocation" x="-2182.5" y="-933"/>
         </scene>
     </scenes>
     <resources>

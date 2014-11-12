@@ -3,3 +3,7 @@
 //
 
 #import "sqlite3.h"
+
+#import "GADBannerView.h"
+#import "GADBannerViewDelegate.h"
+#import "GADRequest.h"

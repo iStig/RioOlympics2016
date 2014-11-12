@@ -16,12 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
- //       let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         
-//        dispatch_async(dispatch_get_global_queue(priority, 0), {
-//            // 加载并初始化数据库，提供效率，改善用户体验
-//            DBHelper.initDB()
-//        })
+        dispatch_async(dispatch_get_global_queue(priority, 0), {
+            // 加载并初始化数据库，提供效率，改善用户体验
+            DBHelper.initDB()
+        })
         
         return true
     }
