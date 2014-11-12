@@ -133,19 +133,19 @@ class EventsDAO : BaseDAO {
                     var events = Events()
                     
                     var cEventName = UnsafePointer<Int8>(sqlite3_column_text(statement, 0))
-                    events.EventName = String.fromCString(cEventName)!
+                    events.EventName = String.fromCString(cEventName)
                     
                     var cEventIcon = UnsafePointer<Int8>(sqlite3_column_text(statement, 1))
-                    events.EventIcon = String.fromCString(cEventIcon)!
+                    events.EventIcon = String.fromCString(cEventIcon)
                     
                     var cKeyInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 2))
-                    events.KeyInfo = String.fromCString(cKeyInfo)!
+                    events.KeyInfo = String.fromCString(cKeyInfo)
                     
                     var cBasicsInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 3))
-                    events.BasicsInfo = String.fromCString(cBasicsInfo)!
+                    events.BasicsInfo = String.fromCString(cBasicsInfo)
                     
                     var cOlympicInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 4))
-                    events.OlympicInfo = String.fromCString(cOlympicInfo)!
+                    events.OlympicInfo = String.fromCString(cOlympicInfo)
                     
                     events.EventID = Int(sqlite3_column_int(statement, 5))
                     
@@ -165,32 +165,32 @@ class EventsDAO : BaseDAO {
         
         if self.openDB() {
             
-            let qsql = "SELECT EventName, EventIcon,KeyInfo,BasicsInfo,OlympicInfo,EventID FROM Events"
-            
+            let qsql = "SELECT EventName, EventIcon,KeyInfo,BasicsInfo,OlympicInfo,EventID FROM Events where EventID =?"
             var statement:COpaquePointer = nil
             
             //预处理过程
             if sqlite3_prepare_v2(db, qsql.cStringUsingEncoding(NSUTF8StringEncoding)!, -1, &statement, nil) == SQLITE_OK {
-                
+                //绑定参数开始
+                sqlite3_bind_int(statement, 1, Int32(model.EventID!))
                 //执行
                 while sqlite3_step(statement) == SQLITE_ROW {
                     
                     var events = Events()
                     
                     var cEventName = UnsafePointer<Int8>(sqlite3_column_text(statement, 0))
-                    events.EventName = String.fromCString(cEventName)!
+                    events.EventName = String.fromCString(cEventName)
                     
                     var cEventIcon = UnsafePointer<Int8>(sqlite3_column_text(statement, 1))
-                    events.EventIcon = String.fromCString(cEventIcon)!
+                    events.EventIcon = String.fromCString(cEventIcon)
                     
                     var cKeyInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 2))
-                    events.KeyInfo = String.fromCString(cKeyInfo)!
+                    events.KeyInfo = String.fromCString(cKeyInfo)
                     
                     var cBasicsInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 3))
-                    events.BasicsInfo = String.fromCString(cBasicsInfo)!
+                    events.BasicsInfo = String.fromCString(cBasicsInfo)
                     
                     var cOlympicInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 4))
-                    events.OlympicInfo = String.fromCString(cOlympicInfo)!
+                    events.OlympicInfo = String.fromCString(cOlympicInfo)
                     
                     events.EventID = Int(sqlite3_column_int(statement, 5))
                     

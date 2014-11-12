@@ -63,7 +63,6 @@
 		436BDF001A0A5F16006F4BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436BDEFE1A0A5F16006F4BBF /* Main.storyboard */; };
 		436BDF021A0A5F16006F4BBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436BDF011A0A5F16006F4BBF /* Images.xcassets */; };
 		436BDF051A0A5F16006F4BBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436BDF031A0A5F16006F4BBF /* LaunchScreen.xib */; };
-		436BDF111A0A5F16006F4BBF /* RioOlympics2016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF101A0A5F16006F4BBF /* RioOlympics2016Tests.swift */; };
 		436BDF221A0A604A006F4BBF /* EventsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF1E1A0A604A006F4BBF /* EventsDAO.swift */; };
 		436BDF231A0A604A006F4BBF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF201A0A604A006F4BBF /* Events.swift */; };
 		436BDF251A0A68F7006F4BBF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF241A0A68F7006F4BBF /* HomeViewController.swift */; };
@@ -72,10 +71,43 @@
 		436BDF2B1A0A694B006F4BBF /* EventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF2A1A0A694B006F4BBF /* EventsDetailViewController.swift */; };
 		436BDF2D1A0A696F006F4BBF /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF2C1A0A696F006F4BBF /* EventsViewController.swift */; };
 		436BDF2F1A0A6984006F4BBF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF2E1A0A6984006F4BBF /* ScheduleViewController.swift */; };
+		439C5F841A1246B30056142F /* ScheduleDAOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C5F831A1246B30056142F /* ScheduleDAOTests.swift */; };
+		439C5F941A126F8C0056142F /* EventsBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA091A0B00F800AC032F /* EventsBL.swift */; };
+		439C5F951A126F8E0056142F /* ScheduleBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA0B1A0B014200AC032F /* ScheduleBL.swift */; };
+		439C5F961A126F910056142F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 433DAA121A0B019500AC032F /* libsqlite3.dylib */; };
+		439C5F971A126F940056142F /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 433DAA0E1A0B017400AC032F /* create_load.sql */; };
+		439C5F981A126F970056142F /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433DAA0F1A0B017400AC032F /* DBConfig.plist */; };
+		439C5F991A126F9B0056142F /* EventsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF1E1A0A604A006F4BBF /* EventsDAO.swift */; };
+		439C5F9A1A126F9D0056142F /* ScheduleDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA1E1A0B40B000AC032F /* ScheduleDAO.swift */; };
+		439C5F9B1A126F9F0056142F /* BaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA141A0B01A900AC032F /* BaseDAO.swift */; };
+		439C5F9C1A126FA20056142F /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA1A1A0B02A900AC032F /* DBHelper.swift */; };
+		439C5F9D1A126FA40056142F /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF201A0A604A006F4BBF /* Events.swift */; };
+		439C5F9E1A126FA70056142F /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA1C1A0B382C00AC032F /* Schedule.swift */; };
+		439C5FA01A1270840056142F /* EventsBLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C5F9F1A1270840056142F /* EventsBLTests.swift */; };
+		439C5FA11A1271150056142F /* EventsBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA091A0B00F800AC032F /* EventsBL.swift */; };
+		439C5FA21A1271170056142F /* ScheduleBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA0B1A0B014200AC032F /* ScheduleBL.swift */; };
+		439C5FA41A1273230056142F /* ScheduleBLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C5FA31A1273230056142F /* ScheduleBLTests.swift */; };
+		43BBB1701A0CB66D0050A3CC /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 433DAA0E1A0B017400AC032F /* create_load.sql */; };
+		43BBB1721A0CB6910050A3CC /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433DAA0F1A0B017400AC032F /* DBConfig.plist */; };
+		43BBB1741A0CB7F40050A3CC /* EventsDAOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BBB1731A0CB7F40050A3CC /* EventsDAOTests.swift */; };
+		43BBB1751A0CB86E0050A3CC /* EventsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF1E1A0A604A006F4BBF /* EventsDAO.swift */; };
+		43BBB1761A0CB8710050A3CC /* ScheduleDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA1E1A0B40B000AC032F /* ScheduleDAO.swift */; };
+		43BBB1771A0CB8730050A3CC /* BaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA141A0B01A900AC032F /* BaseDAO.swift */; };
+		43BBB1781A0CB8750050A3CC /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA1A1A0B02A900AC032F /* DBHelper.swift */; };
+		43BBB1791A0CB87A0050A3CC /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BDF201A0A604A006F4BBF /* Events.swift */; };
+		43BBB17A1A0CB87C0050A3CC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DAA1C1A0B382C00AC032F /* Schedule.swift */; };
+		43BBB17B1A0CB9480050A3CC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 433DAA121A0B019500AC032F /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		436BDF0B1A0A5F16006F4BBF /* PBXContainerItemProxy */ = {
+		439C5F8F1A126F650056142F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436BDEEB1A0A5F15006F4BBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436BDEF21A0A5F16006F4BBF;
+			remoteInfo = RioOlympics2016;
+		};
+		43BBB16B1A0CB5F90050A3CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 436BDEEB1A0A5F15006F4BBF /* Project object */;
 			proxyType = 1;
@@ -144,7 +176,6 @@
 		436BDEFF1A0A5F16006F4BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436BDF011A0A5F16006F4BBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		436BDF041A0A5F16006F4BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		436BDF0A1A0A5F16006F4BBF /* RioOlympics2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RioOlympics2016Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436BDF0F1A0A5F16006F4BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436BDF101A0A5F16006F4BBF /* RioOlympics2016Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RioOlympics2016Tests.swift; sourceTree = "<group>"; };
 		436BDF1E1A0A604A006F4BBF /* EventsDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDAO.swift; sourceTree = "<group>"; };
@@ -155,6 +186,14 @@
 		436BDF2A1A0A694B006F4BBF /* EventsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDetailViewController.swift; sourceTree = "<group>"; };
 		436BDF2C1A0A696F006F4BBF /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		436BDF2E1A0A6984006F4BBF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		439C5F831A1246B30056142F /* ScheduleDAOTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDAOTests.swift; sourceTree = "<group>"; };
+		439C5F891A126F650056142F /* BusinessLogicLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessLogicLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439C5F8C1A126F650056142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439C5F9F1A1270840056142F /* EventsBLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsBLTests.swift; sourceTree = "<group>"; };
+		439C5FA31A1273230056142F /* ScheduleBLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleBLTests.swift; sourceTree = "<group>"; };
+		43BBB1651A0CB5F80050A3CC /* PersistenceLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BBB1681A0CB5F90050A3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BBB1731A0CB7F40050A3CC /* EventsDAOTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDAOTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,10 +205,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		436BDF071A0A5F16006F4BBF /* Frameworks */ = {
+		439C5F861A126F650056142F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439C5F961A126F910056142F /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BBB1621A0CB5F80050A3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BBB17B1A0CB9480050A3CC /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +298,8 @@
 			isa = PBXGroup;
 			children = (
 				436BDEF31A0A5F16006F4BBF /* RioOlympics2016.app */,
-				436BDF0A1A0A5F16006F4BBF /* RioOlympics2016Tests.xctest */,
+				43BBB1651A0CB5F80050A3CC /* PersistenceLayerTests.xctest */,
+				439C5F891A126F650056142F /* BusinessLogicLayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,6 +356,7 @@
 			children = (
 				433DAA091A0B00F800AC032F /* EventsBL.swift */,
 				433DAA0B1A0B014200AC032F /* ScheduleBL.swift */,
+				439C5F8A1A126F650056142F /* BusinessLogicLayerTests */,
 			);
 			path = BusinessLogicLayer;
 			sourceTree = "<group>";
@@ -317,6 +367,7 @@
 				433DAA0D1A0B017400AC032F /* DBFile */,
 				436BDF1D1A0A604A006F4BBF /* dao */,
 				436BDF1F1A0A604A006F4BBF /* domain */,
+				43BBB1661A0CB5F90050A3CC /* PersistenceLayerTests */,
 			);
 			path = PersistenceLayer;
 			sourceTree = "<group>";
@@ -341,6 +392,42 @@
 			path = domain;
 			sourceTree = "<group>";
 		};
+		439C5F8A1A126F650056142F /* BusinessLogicLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				439C5F9F1A1270840056142F /* EventsBLTests.swift */,
+				439C5FA31A1273230056142F /* ScheduleBLTests.swift */,
+				439C5F8B1A126F650056142F /* Supporting Files */,
+			);
+			path = BusinessLogicLayerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		439C5F8B1A126F650056142F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439C5F8C1A126F650056142F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43BBB1661A0CB5F90050A3CC /* PersistenceLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				43BBB1731A0CB7F40050A3CC /* EventsDAOTests.swift */,
+				439C5F831A1246B30056142F /* ScheduleDAOTests.swift */,
+				43BBB1671A0CB5F90050A3CC /* Supporting Files */,
+			);
+			path = PersistenceLayerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		43BBB1671A0CB5F90050A3CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43BBB1681A0CB5F90050A3CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,22 +448,40 @@
 			productReference = 436BDEF31A0A5F16006F4BBF /* RioOlympics2016.app */;
 			productType = "com.apple.product-type.application";
 		};
-		436BDF091A0A5F16006F4BBF /* RioOlympics2016Tests */ = {
+		439C5F881A126F650056142F /* BusinessLogicLayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 436BDF171A0A5F16006F4BBF /* Build configuration list for PBXNativeTarget "RioOlympics2016Tests" */;
+			buildConfigurationList = 439C5F911A126F650056142F /* Build configuration list for PBXNativeTarget "BusinessLogicLayerTests" */;
 			buildPhases = (
-				436BDF061A0A5F16006F4BBF /* Sources */,
-				436BDF071A0A5F16006F4BBF /* Frameworks */,
-				436BDF081A0A5F16006F4BBF /* Resources */,
+				439C5F851A126F650056142F /* Sources */,
+				439C5F861A126F650056142F /* Frameworks */,
+				439C5F871A126F650056142F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				436BDF0C1A0A5F16006F4BBF /* PBXTargetDependency */,
+				439C5F901A126F650056142F /* PBXTargetDependency */,
 			);
-			name = RioOlympics2016Tests;
-			productName = RioOlympics2016Tests;
-			productReference = 436BDF0A1A0A5F16006F4BBF /* RioOlympics2016Tests.xctest */;
+			name = BusinessLogicLayerTests;
+			productName = BusinessLogicLayerTests;
+			productReference = 439C5F891A126F650056142F /* BusinessLogicLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43BBB1641A0CB5F80050A3CC /* PersistenceLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BBB16F1A0CB5F90050A3CC /* Build configuration list for PBXNativeTarget "PersistenceLayerTests" */;
+			buildPhases = (
+				43BBB1611A0CB5F80050A3CC /* Sources */,
+				43BBB1621A0CB5F80050A3CC /* Frameworks */,
+				43BBB1631A0CB5F80050A3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43BBB16C1A0CB5F90050A3CC /* PBXTargetDependency */,
+			);
+			name = PersistenceLayerTests;
+			productName = PersistenceLayerTests;
+			productReference = 43BBB1651A0CB5F80050A3CC /* PersistenceLayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -391,7 +496,11 @@
 					436BDEF21A0A5F16006F4BBF = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					436BDF091A0A5F16006F4BBF = {
+					439C5F881A126F650056142F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 436BDEF21A0A5F16006F4BBF;
+					};
+					43BBB1641A0CB5F80050A3CC = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 436BDEF21A0A5F16006F4BBF;
 					};
@@ -411,7 +520,8 @@
 			projectRoot = "";
 			targets = (
 				436BDEF21A0A5F16006F4BBF /* RioOlympics2016 */,
-				436BDF091A0A5F16006F4BBF /* RioOlympics2016Tests */,
+				43BBB1641A0CB5F80050A3CC /* PersistenceLayerTests */,
+				439C5F881A126F650056142F /* BusinessLogicLayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -471,10 +581,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		436BDF081A0A5F16006F4BBF /* Resources */ = {
+		439C5F871A126F650056142F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439C5F981A126F970056142F /* DBConfig.plist in Resources */,
+				439C5F971A126F940056142F /* create_load.sql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BBB1631A0CB5F80050A3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BBB1721A0CB6910050A3CC /* DBConfig.plist in Resources */,
+				43BBB1701A0CB66D0050A3CC /* create_load.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,21 +625,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		436BDF061A0A5F16006F4BBF /* Sources */ = {
+		439C5F851A126F650056142F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436BDF111A0A5F16006F4BBF /* RioOlympics2016Tests.swift in Sources */,
+				439C5F941A126F8C0056142F /* EventsBL.swift in Sources */,
+				439C5F951A126F8E0056142F /* ScheduleBL.swift in Sources */,
+				439C5F9E1A126FA70056142F /* Schedule.swift in Sources */,
+				439C5F9C1A126FA20056142F /* DBHelper.swift in Sources */,
+				439C5F9D1A126FA40056142F /* Events.swift in Sources */,
+				439C5F991A126F9B0056142F /* EventsDAO.swift in Sources */,
+				439C5F9A1A126F9D0056142F /* ScheduleDAO.swift in Sources */,
+				439C5F9B1A126F9F0056142F /* BaseDAO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BBB1611A0CB5F80050A3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439C5FA01A1270840056142F /* EventsBLTests.swift in Sources */,
+				43BBB1791A0CB87A0050A3CC /* Events.swift in Sources */,
+				43BBB1741A0CB7F40050A3CC /* EventsDAOTests.swift in Sources */,
+				43BBB1751A0CB86E0050A3CC /* EventsDAO.swift in Sources */,
+				43BBB1781A0CB8750050A3CC /* DBHelper.swift in Sources */,
+				43BBB1761A0CB8710050A3CC /* ScheduleDAO.swift in Sources */,
+				439C5FA41A1273230056142F /* ScheduleBLTests.swift in Sources */,
+				439C5FA11A1271150056142F /* EventsBL.swift in Sources */,
+				439C5F841A1246B30056142F /* ScheduleDAOTests.swift in Sources */,
+				439C5FA21A1271170056142F /* ScheduleBL.swift in Sources */,
+				43BBB17A1A0CB87C0050A3CC /* Schedule.swift in Sources */,
+				43BBB1771A0CB8730050A3CC /* BaseDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		436BDF0C1A0A5F16006F4BBF /* PBXTargetDependency */ = {
+		439C5F901A126F650056142F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 436BDEF21A0A5F16006F4BBF /* RioOlympics2016 */;
-			targetProxy = 436BDF0B1A0A5F16006F4BBF /* PBXContainerItemProxy */;
+			targetProxy = 439C5F8F1A126F650056142F /* PBXContainerItemProxy */;
+		};
+		43BBB16C1A0CB5F90050A3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436BDEF21A0A5F16006F4BBF /* RioOlympics2016 */;
+			targetProxy = 43BBB16B1A0CB5F90050A3CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -646,7 +798,7 @@
 			};
 			name = Release;
 		};
-		436BDF181A0A5F16006F4BBF /* Debug */ = {
+		439C5F921A126F650056142F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -658,14 +810,15 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RioOlympics2016Tests/Info.plist;
+				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
 			};
 			name = Debug;
 		};
-		436BDF191A0A5F16006F4BBF /* Release */ = {
+		439C5F931A126F650056142F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -673,9 +826,46 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RioOlympics2016Tests/Info.plist;
+				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
+			};
+			name = Release;
+		};
+		43BBB16D1A0CB5F90050A3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersistenceLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
+			};
+			name = Debug;
+		};
+		43BBB16E1A0CB5F90050A3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersistenceLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
 			};
 			name = Release;
@@ -701,11 +891,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		436BDF171A0A5F16006F4BBF /* Build configuration list for PBXNativeTarget "RioOlympics2016Tests" */ = {
+		439C5F911A126F650056142F /* Build configuration list for PBXNativeTarget "BusinessLogicLayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				436BDF181A0A5F16006F4BBF /* Debug */,
-				436BDF191A0A5F16006F4BBF /* Release */,
+				439C5F921A126F650056142F /* Debug */,
+				439C5F931A126F650056142F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43BBB16F1A0CB5F90050A3CC /* Build configuration list for PBXNativeTarget "PersistenceLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BBB16D1A0CB5F90050A3CC /* Debug */,
+				43BBB16E1A0CB5F90050A3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

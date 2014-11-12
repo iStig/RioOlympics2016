@@ -91,9 +91,10 @@ class ScheduleDAO: BaseDAO {
                 sqlite3_bind_text(statement, 3, model.GameDate!.cStringUsingEncoding(NSUTF8StringEncoding), -1, nil)
                 sqlite3_bind_text(statement, 4, model.GameTime!.cStringUsingEncoding(NSUTF8StringEncoding), -1, nil)
                 sqlite3_bind_int(statement, 5, Int32(model.ScheduleID!))
-                
+                let r = sqlite3_step(statement)
                 //执行插入
-                if (sqlite3_step(statement) != SQLITE_DONE) {
+                if ( r != SQLITE_DONE) {
+                    println(r)
                     assert(false, "修改数据失败。")
                 }
             }
@@ -125,13 +126,13 @@ class ScheduleDAO: BaseDAO {
                     schedule.Event = event
                     
                     var cGameDate = UnsafePointer<Int8>(sqlite3_column_text(statement, 0))
-                    schedule.GameDate = String.fromCString(cGameDate)!
+                    schedule.GameDate = String.fromCString(cGameDate)
                     
                     var cGameTime = UnsafePointer<Int8>(sqlite3_column_text(statement, 1))
-                    schedule.GameTime = String.fromCString(cGameTime)!
+                    schedule.GameTime = String.fromCString(cGameTime)
                     
                     var cGameInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 2))
-                    schedule.GameInfo = String.fromCString(cGameInfo)!
+                    schedule.GameInfo = String.fromCString(cGameInfo)
                     
                     schedule.Event!.EventID = Int(sqlite3_column_int(statement, 3))
                     schedule.ScheduleID = Int(sqlite3_column_int(statement, 4))
@@ -170,13 +171,13 @@ class ScheduleDAO: BaseDAO {
                     schedule.Event = event
                     
                     var cGameDate = UnsafePointer<Int8>(sqlite3_column_text(statement, 0))
-                    schedule.GameDate = String.fromCString(cGameDate)!
+                    schedule.GameDate = String.fromCString(cGameDate)
                     
                     var cGameTime = UnsafePointer<Int8>(sqlite3_column_text(statement, 1))
-                    schedule.GameTime = String.fromCString(cGameTime)!
+                    schedule.GameTime = String.fromCString(cGameTime)
                     
                     var cGameInfo = UnsafePointer<Int8>(sqlite3_column_text(statement, 2))
-                    schedule.GameInfo = String.fromCString(cGameInfo)!
+                    schedule.GameInfo = String.fromCString(cGameInfo)
                     
                     schedule.Event!.EventID = Int(sqlite3_column_int(statement, 3))
                     schedule.ScheduleID = Int(sqlite3_column_int(statement, 4))
