@@ -99,13 +99,11 @@
 		43BBB17B1A0CB9480050A3CC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 433DAA121A0B019500AC032F /* libsqlite3.dylib */; };
 		EA3CEC961A13687A00AA5D3D /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CEC941A13687A00AA5D3D /* libGoogleAdMobAds.a */; };
 		EA3CEC971A13687A00AA5D3D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA3CEC951A13687A00AA5D3D /* README.txt */; };
-		EA3CEC991A1368B800AA5D3D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CEC981A1368B800AA5D3D /* StoreKit.framework */; };
 		EA3CEC9B1A1368BF00AA5D3D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CEC9A1A1368BF00AA5D3D /* CoreTelephony.framework */; };
 		EA3CEC9D1A1368C900AA5D3D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CEC9C1A1368C900AA5D3D /* SystemConfiguration.framework */; };
 		EA3CEC9F1A1368CE00AA5D3D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CEC9E1A1368CE00AA5D3D /* MessageUI.framework */; };
 		EA3CECA11A1368D600AA5D3D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CECA01A1368D600AA5D3D /* MediaPlayer.framework */; };
 		EA3CECA31A1368DD00AA5D3D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CECA21A1368DD00AA5D3D /* AdSupport.framework */; };
-		EA3CECA51A1368E200AA5D3D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CECA41A1368E200AA5D3D /* AudioToolbox.framework */; };
 		EA3CECA71A1368E700AA5D3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CECA61A1368E700AA5D3D /* AVFoundation.framework */; };
 		EA3CECA91A1368EF00AA5D3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CECA81A1368EF00AA5D3D /* CoreGraphics.framework */; };
 		EA3CECAB1A1368F500AA5D3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3CECAA1A1368F500AA5D3D /* QuartzCore.framework */; };
@@ -237,13 +235,11 @@
 		EA3CEC931A13687A00AA5D3D /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
 		EA3CEC941A13687A00AA5D3D /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		EA3CEC951A13687A00AA5D3D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		EA3CEC981A1368B800AA5D3D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EA3CEC9A1A1368BF00AA5D3D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		EA3CEC9C1A1368C900AA5D3D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EA3CEC9E1A1368CE00AA5D3D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		EA3CECA01A1368D600AA5D3D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		EA3CECA21A1368DD00AA5D3D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		EA3CECA41A1368E200AA5D3D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EA3CECA61A1368E700AA5D3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EA3CECA81A1368EF00AA5D3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EA3CECAA1A1368F500AA5D3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -261,13 +257,11 @@
 				EA3CECAB1A1368F500AA5D3D /* QuartzCore.framework in Frameworks */,
 				EA3CECA91A1368EF00AA5D3D /* CoreGraphics.framework in Frameworks */,
 				EA3CECA71A1368E700AA5D3D /* AVFoundation.framework in Frameworks */,
-				EA3CECA51A1368E200AA5D3D /* AudioToolbox.framework in Frameworks */,
 				EA3CECA31A1368DD00AA5D3D /* AdSupport.framework in Frameworks */,
 				EA3CECA11A1368D600AA5D3D /* MediaPlayer.framework in Frameworks */,
 				EA3CEC9F1A1368CE00AA5D3D /* MessageUI.framework in Frameworks */,
 				EA3CEC9D1A1368C900AA5D3D /* SystemConfiguration.framework in Frameworks */,
 				EA3CEC9B1A1368BF00AA5D3D /* CoreTelephony.framework in Frameworks */,
-				EA3CEC991A1368B800AA5D3D /* StoreKit.framework in Frameworks */,
 				433DAA131A0B019500AC032F /* libsqlite3.dylib in Frameworks */,
 				EA3CEC961A13687A00AA5D3D /* libGoogleAdMobAds.a in Frameworks */,
 			);
@@ -573,13 +567,11 @@
 				EA3CECAA1A1368F500AA5D3D /* QuartzCore.framework */,
 				EA3CECA81A1368EF00AA5D3D /* CoreGraphics.framework */,
 				EA3CECA61A1368E700AA5D3D /* AVFoundation.framework */,
-				EA3CECA41A1368E200AA5D3D /* AudioToolbox.framework */,
 				EA3CECA21A1368DD00AA5D3D /* AdSupport.framework */,
 				EA3CECA01A1368D600AA5D3D /* MediaPlayer.framework */,
 				EA3CEC9E1A1368CE00AA5D3D /* MessageUI.framework */,
 				EA3CEC9C1A1368C900AA5D3D /* SystemConfiguration.framework */,
 				EA3CEC9A1A1368BF00AA5D3D /* CoreTelephony.framework */,
-				EA3CEC981A1368B800AA5D3D /* StoreKit.framework */,
 				433DAA121A0B019500AC032F /* libsqlite3.dylib */,
 			);
 			name = framework;
@@ -652,13 +644,24 @@
 				TargetAttributes = {
 					436BDEF21A0A5F16006F4BBF = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 98Z3R5XU29;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 					439C5F881A126F650056142F = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 98Z3R5XU29;
 						TestTargetID = 436BDEF21A0A5F16006F4BBF;
 					};
 					43BBB1641A0CB5F80050A3CC = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 98Z3R5XU29;
 						TestTargetID = 436BDEF21A0A5F16006F4BBF;
 					};
 				};
@@ -869,6 +872,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -889,6 +893,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ecfcbfd5-da99-4d79-872e-479a07b0b66d";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -912,6 +917,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -925,6 +931,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ecfcbfd5-da99-4d79-872e-479a07b0b66d";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -936,7 +943,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JIA YUNLONG (98Z3R5XU29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JIA YUNLONG (98Z3R5XU29)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RioOlympics2016/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -944,6 +955,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -954,7 +966,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JIA YUNLONG (98Z3R5XU29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JIA YUNLONG (98Z3R5XU29)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RioOlympics2016/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -962,6 +978,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 			};
 			name = Release;
@@ -970,6 +987,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -981,6 +1000,7 @@
 				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
 			};
@@ -990,6 +1010,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -997,6 +1019,7 @@
 				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
 			};
@@ -1006,6 +1029,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1017,6 +1042,7 @@
 				INFOPLIST_FILE = PersistenceLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
 			};
@@ -1026,6 +1052,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1033,6 +1061,7 @@
 				INFOPLIST_FILE = PersistenceLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RioOlympics2016/RioOlympics2016-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
 			};
